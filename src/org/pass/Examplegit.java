@@ -2,11 +2,14 @@ package org.pass;
 
 public class Examplegit
 {
-	private static void username() {
+	public static void username() {
 		System.out.println("username");
 	}
-
+	public static void passWord() {
+		System.out.println("password");
+	}
 	public static void main(String[] args) {
 		username();
+		passWord();
 	}
 }
